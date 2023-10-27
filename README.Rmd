@@ -1,0 +1,28 @@
+---
+title: "Predicting species distribution based on future climate data"
+author: "Beñat Yañez"
+date: "06/10/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+
+## Goals for this practical (CaptureMarkRecapture Code)
+
+* #### For several populations of sparrow from islands in Norway, use a Capture Mark Recapture approach to calculate survival and detection probabilities
+* #### Build models to observe if detection/survival probabilities depend on island
+* #### Compare models where survival probability changes depedning on different factors (weather, sex, island, etc) to deterine which is best based on AIC score.
+* #### Test assumptions of Capture Mark Recapture
+
+## Goals for this practical (MatrixPopulationModelling Code)
+* #### For a dataset of several years of a population of sparrows 
+* #### Calculate reproduction and survival
+* #### Build a matrix population model based on census after births
+* #### Project the population dynamics to 15 years in the future
+* #### Run sensitivity and elasticity anslyses to determine which parameters is more important for sparrow population dynamics
+
+***
